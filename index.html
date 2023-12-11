@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Portfolio Website Design | Codehal</title>
+
+    <!--for box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">about</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello there! My name is</h3>
+        <h1 class="focus-in-expand-fwd">Yash Vijay Chaudhari</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Final year student pursuing my B.tech in computer science engineering.
+        </p>
+        <div class="social-media">
+          <a href="https://github.com/chaudharijay"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/yash-chaudhari-14b80122a/"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a href="https://www.hackerrank.com/profile/acrjay222"
+            ><i class="bx bx-code-block"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UCYKZ2W2Z-2YjaH3Tw6vMHAA"
+            ><i class="bx bxl-youtube"></i
+          ></a>
+        </div>
+        <a href="Resume.pdf" class="btn">Resume</a>
+      </div>
+
+      <div class="home-img">
+        <img src="home.png" alt="Me" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="heading slide-in-blurred-top">About Me</h2>
+        <h3>
+          Education
+          <div class="Education-main">
+            <div class="education1">
+              SSC (79.80%) - 2018
+             <p>Yashwant Vinayan Mandir, Dhule, Maharashtra</p>
+           </div>
+           <div class="education1">
+             HSC (70.00%) - 2020
+             <p>Jai Hind Jr. Highschool, Dhule, Maharshtra</p>
+           </div>
+           <div class="education1">
+             B.tech in CSE(7.92) - pursuing(-2024)
+            <p>SSVPS's B.S.Deore College of Engineering, Dhule, Maharashtra</p> 
+           </div>
+          </div>
+          
+         
+        </h3>
+
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- services section design  -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class='bx bx-code-curly'></i>
+          <h3>C Programming</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui libero
+            omnis ut pariatur minus fugiat neque repudiandae voluptas adipisci
+            quae.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class='bx bxl-java'></i>
+          <!-- change the icon  -->
+          <h3>Java</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui libero
+            omnis ut pariatur minus fugiat neque repudiandae voluptas adipisci
+            quae.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class='bx bxl-javascript' ></i>
+          <!-- change the icon  -->
+          <h3>Javascript</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui libero
+            omnis ut pariatur minus fugiat neque repudiandae voluptas adipisci
+            quae.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class='bx bxl-html5' ></i>
+          <!-- change the icon  -->
+          <h3>HTML + CSS</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui libero
+            omnis ut pariatur minus fugiat neque repudiandae voluptas adipisci
+            quae.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- design for portfolio  -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span> Project </span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="portfolio1.jpg" alt="portfolio 1" />
+          <div class="portfolio-layer">
+            <h4>QR Code Generator</h4>
+            <p>
+              Java, Xml, QRGen, ZXing, Android Studio.
+            </p>
+            <p>Single activity android app which generates QR Code from the text you input.</p>
+            <a href="https://github.com/chaudharijay/QRCodegenerator"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="portfolio2.jpg" alt="portfolio 1" />
+          <div class="portfolio-layer">
+            <h4>TicTacToe</h4>
+            <p>
+              Java, Xml, Android Studio
+            </p>
+            <p>
+              Two player at a time TicTacToe game which let's user input their name and announces match results at the end.
+            </p>
+            <a href="https://github.com/chaudharijay/TicTacToe"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="portfolio3.jpg" alt="portfolio 1" />
+          <div class="portfolio-layer">
+            <h4>Scientific Calculator</h4>
+            <p>
+              Java, xml, Android Studio.
+            </p>
+            <p>Simple UI'd Calculator app which let's you do from basic +,- operations to difficult (sin-cos) as well.</p>
+            <a href="https://github.com/chaudharijay/Scientific_calculator"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="portfolio4.jpg" alt="portfolio 1" />
+          <div class="portfolio-layer">
+            <h4>Amazon_clone</h4>
+            <p>
+              Html, CSS, Javascript, VSCode
+            </p>
+            <p>
+              Almost accurate clone of Amazon.com with having almost every important features of Amazon(cart, scroll, wishlist, etc.).
+            </p>
+            <a href="https://github.com/chaudharijay/amazon-clone"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="portfolio5.jpg" alt="portfolio 1" />
+          <div class="portfolio-layer">
+            <h4>Web design</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+              tempora?
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="portfolio6.jpg" alt="portfolio 1" />
+          <div class="portfolio-layer">
+            <h4>Web design</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+              tempora?
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <h2 class="heading"></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="Number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <!-- scroll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js  -->
+    <script src="activity.js"></script>
+  </body>
+</html>
